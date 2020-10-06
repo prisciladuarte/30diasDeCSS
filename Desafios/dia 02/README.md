@@ -1,4 +1,4 @@
-## 🚀 30diasDeCSS  - Desafio do dia 1 - Loader animado🚀
+## 🚀 30diasDeCSS  - Desafio do dia 2 - Loader animado🚀
 
 ##### O que eu aprendi
 

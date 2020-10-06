@@ -4,11 +4,10 @@
 
 * a criar camadas com a propriedade *[span]*
 * a propriedade *[transform]*
-* a pseudo-classe*[:nth-child()]*
+* a pseudo-classe *[:nth-child()]*
 * a propriedade *[!important]*
 
  ## Comentário sobre o desafio
  Foi supeer fixe fazer esse desafio, amei amei amei!!!
 
- ## Link de acesso
  

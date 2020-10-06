@@ -4,7 +4,6 @@
 
 * a criar animações com *[@keyframes]*
 * os pseudo-elementos *[::after]* e *[::before]*
-* a pseudo-classe *[:nth-child()]*
 * a propriedade *[animation]*
 
  ## Comentário sobre o desafio

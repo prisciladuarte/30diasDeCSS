@@ -1,4 +1,4 @@
-## 🚀 30diasDeCSS  - Desafio do dia 1 - Ícone de midia socila em camadas🚀
+## 🚀 30diasDeCSS  - Desafio do dia 1 - Loader animado🚀
 
 ##### O que eu aprendi
 

@@ -5,7 +5,7 @@
 * a usar a propriedade *[white-sapce]*
 
  ## Comentário sobre o desafio
- Esse foi o desafio até agora que mais me deu dificuldades ao entender a essência do mesmo.
+ Esse foi o desafio até agora que mais me deu dificuldades ao entender a essência do mesmo....
  Mas, foi um desafio fixe de fazer também!
 
  

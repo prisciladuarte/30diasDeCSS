@@ -29,9 +29,15 @@ body {
 
 #phoneDiv{
 
-    font-size:3.5rem;
+    font-size:3rem;
+
 }
 
+fas fa-phone{
+
+    
+
+}
 
  @keyframes pulse{
 
@@ -45,9 +51,7 @@ body {
     80% {
         box-shadow: 0 0 0 50px rgba(255,109 ,74, 0), box-shadow: 0 0 0 30px rgba(255,109 ,74, 0);
     }
-    
     100% {
         box-shadow: 0 0 0 0 rgba(255,109 ,74, .7),box-shadow: 0 0 0 30px rgba(255,109 ,74, 0);
     }
-    
  }

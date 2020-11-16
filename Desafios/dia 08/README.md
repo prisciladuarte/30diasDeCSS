@@ -6,7 +6,7 @@
 * A usar a usar a propriedade *[animation-timing-function]*
 
  ## Comentário sobre o desafio
- Fiquei super surpreendida quando percebi que é possível desenhar um coração, apartir 3 quadrados.
+ Fiquei super surpreendida quando percebi que é possível desenhar um coração, apartir de 3 quadrados.
  Eu posso dizer, que me estou a apaixonar pelo CSS
 
  

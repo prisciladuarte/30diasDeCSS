@@ -1,28 +1,52 @@
-body
-{
+body {
+
+    display: grid;
+    place-items:center;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(168, 244, 247);
+    background-color:#000000;
 }
-h1
-{
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    font-family: 'Press Start 2P', cursive;
+
+h1 {
+
+    font-size: 3rem;
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 10px;
+    
 }
-span::before
-{
+
+span::before {
+
     content: '';
-    animation: word-swith 3s infinite;
+    animation: flash 3s infinite;
 }
 
-@keyframes word-swith 
-{
-    0% {content: '💻'}
+@keyframes flash{
 
-    50%{content: '🍕';}
+    0% { 
 
-    100%{content: '🎮';}
+        content:'💻';
+    }
+
+    25% {
+
+        content: '📝';
+    }
+
+    50% {
+
+        content: '🎶';
+    }
+
+    75% {
+
+        content: '📚';
+    }
+
+    100% {
+
+        content: '🎧';
+    }
+
+   
 }

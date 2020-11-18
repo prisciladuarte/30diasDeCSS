@@ -1,0 +1,50 @@
+body {
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.efeito {
+
+    border: none;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efeito-6 {
+
+    background: #FF7C73;;
+    transform-style: preserve-3d;
+}   
+
+.efeito::after {
+
+    content:'Kuzola';
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background-color:#FA9357;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.efeito-6:hover {
+
+    transform-origin:center bottom ;
+    transform: rotateX(-90deg) translateY(100%);
+}

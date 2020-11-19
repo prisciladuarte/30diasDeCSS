@@ -1,34 +1,38 @@
-body
-{
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+
+    display: grid;
+    place-items: center;
     height: 100vh;
-    font-family: sans-serif;
-}
-h1
-{
     margin: 0;
     padding: 0;
-    font-family: verdana;
-    font-size: 120px;
-    color: rgba(255, 99, 71, 0.336);
-    text-transform: uppercase;
-    position: relative;
 }
-h1::before 
+
+
+h1
+{   position: relative;
+    font-size: 50px;
+    color: #eeeeee;
+    font-family: sans-serif;   
+}
+
+h1.texto::before 
 {
-    content: "#30diasdeCSS";
+    content: 'Creuma';
     position: absolute;
     top: 0%;
     left: 0%;
-    color: tomato;
+    color:#ea005e;
     width: 0%;
     overflow: hidden;
     transition: all 0.6s;
 }
+
 h1:hover::before
 {
     width: 100%;
 }
+
+
+
+
+

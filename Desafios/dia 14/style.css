@@ -1,26 +1,30 @@
 body {
+
+	display: grid;
+	place-items: center;
+	background-color: hotpink;
 	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Lato', sans-serif;
-	background-color: rgba(10, 43, 48, 0.363);
 }
 
 h1 {
-	font-size: 200px;
-	text-align: center;
+
+	background:url('papel-de-parede-listras-etnico-02-laco.jpg');
+	font-size: 11em;
 	text-transform: uppercase;
-	background: url(image.jpg);
 	-webkit-background-clip: text;
-	color: transparent;
-	animation: text-background 20s linear infinite;
+	-webkit-text-fill-color: transparent;
+	animation: wavy 10s linear infinite;
 }
 
-@keyframes text-background {
+@keyframes wavy{
 
-	from { background-position: 0 0 }
+	0%{
 
-	to { background-position: 100% 100% }
+		background-position: 0 0;
+	}
 
-} 
+	100%{
+
+		background-position: 100% 100%;
+	}
+}

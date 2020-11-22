@@ -2,18 +2,19 @@ body {
 
 	display: grid;
 	place-items: center;
-	background-color:#FF8BA9;
+	background-color:rgb(9, 9, 9);
+
 	height: 100vh;
 }
 
 h1 {
 
-	background:url('papel-de-parede-listras-etnico-02-laco.jpg');
+	background:url('20201017_152921.jpg');
 	font-size: 11em;
 	text-transform: uppercase;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: wavy 10s linear infinite;
+	animation: wavy 20s linear infinite;
 }
 
 @keyframes wavy{

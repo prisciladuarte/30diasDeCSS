@@ -1,31 +1,37 @@
-body
-{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f33131b2;
-}
-h1
-{
-    text-align: center;
-    color: white;
-    font-family: arial;
-    font-size: 90px;
-    line-height: 90px;
-    letter-spacing: 15px;
-    text-shadow: 0 1px 0 #efefef,
-                 0 2px 0 #efefef,
-                 0 3px 0 #efefef,
-                 0 4px 0 #efefef,
-                 0 30px 5px rgba(0,0,0,.1);
-    animation: float 3s linear infinite;
-    animation-direction: alternate;
+body{
+
+    display: grid;
+    place-items: center;
+    height: 90vh;
+    background-color:#E88D20;
+    font-family: sans-serif;
+    color:#ffffff
 }
 
-@keyframes float 
-{
-    from {transform: rotate(5deg);}
+h1 {
 
-    to {transform: rotate(-5deg);}
+    animation: flutuar 3s linear infinite;
+    font-size: 4rem;
+    text-shadow:  
+                0 3px 0 #efefef,
+                0 4px 0 #efefef,
+                0 30px 5px rgba(0,0,0,.1);
+  
 }
+
+@keyframes flutuar{
+
+    0%,100%{
+
+        transform: rotate(4deg);
+        
+    }
+
+    50%{
+
+        transform: rotate(-4deg);
+        
+    }
+    
+}
+

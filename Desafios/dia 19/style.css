@@ -20,9 +20,9 @@ body
     height: 750;
     margin: -150px;
     transform-origin: right;
-    animation: corMudando 5s linear infinite;
+    animation: changeColor 5s linear infinite;
 }
-@keyframes corMudando
+@keyframes changeColor
 {
     0%
     {
@@ -85,18 +85,22 @@ body
                 0 0 80px rgba(0,226,255,1),
                 0 0 0 8px rgba(0,226,255,.1);
 }
+
 .brilho span:nth-child(3n+1)
 {
     animation: animate 10s alternate infinite;
 }
+
 .brilho span:nth-child(3n+2)
 {
     animation: animate-reverse 3s alternate infinite;
 }
+
 .brilho span:nth-child(3n+3)
 {
     animation: animate 8s alternate infinite;
 }
+
 @keyframes animate
 {
     0%

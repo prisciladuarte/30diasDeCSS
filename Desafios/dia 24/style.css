@@ -63,73 +63,71 @@ body{
 @keyframes rotation-1 {
    0%{
        left: -5%;
+       transform: rotate(0);
    }
-   
+
+  50%{
+
+    transform: rotate(90deg);
+   }
+
+   100%{
+       transform: rotate(45deg);
+   }
+
 }
-/*
+
 @keyframes rotation-2 {
-    0% {
-        transform: translate(0, -50%) rotate(0);
+   
+    0%{
+        transform: translate(60px) rotate(0); 
     }
-    10% {
-        transform: translate(0, -50%) rotate(0);
+ 
+   50%{
+ 
+     transform: rotate(90deg);
     }
-    25% {
-        transform: translate(0%, -50%) rotate(45deg);
-    }
-    50% {
-        transform: translate(30%, -50%) rotate(45deg);
-    }
-    75% {
-        transform: translate(0%, -50%) rotate(45deg);
-    }
-    100% {
-        transform: translate(0, -50%) rotate(0);
+ 
+    100%{
+        transform: rotate(45deg);
     }
 }
 
 
 @keyframes rotation-3 {
-    0% {
-        transform: translate(0, -50%) rotate(0);
+
+    0%{ 
+        right:4%;
+        transform: translate(-30px,55px) rotate(0);
+
     }
-    10% {
-        transform: translate(0, -50%) rotate(0);
+ 
+   50%{
+ 
+     transform: rotate(90deg);
     }
-    25% {
-        transform: translate(0%, -50%) rotate(45deg);
-    }
-    50% {
-        transform: translate(-30%, -50%) rotate(45deg);
-    }
-    75% {
-        transform: translate(0%, -50%) rotate(45deg);
-    }
-    100% {
-        transform: translate(0, -50%) rotate(0);
+ 
+    100%{
+        transform: rotate(45deg);
     }
 }
 
+
 @keyframes rotation-4 {
-    0% {
-        transform: translate(-50%, 0) rotate(0);
+
+    0%{
+        transform: translate(10px,-50px) rotate(0); 
     }
-    10% {
-        transform: translate(-50%, 0) rotate(0);
+ 
+   50%{
+ 
+     transform: rotate(90deg);
     }
-    25% {
-        transform: translateX(-50%) rotate(45deg);
+ 
+    100%{
+        transform: rotate(45deg);
     }
-    50% {
-        transform: translate(-50%, -30%) rotate(45deg);
-    }
-    75% {
-        transform: translate(-50%, 0) rotate(45deg);
-    }
-    100% {
-        transform: translate(-50%, 0) rotate(0);
-    }
-*/
+}
 
 
 

@@ -2,132 +2,82 @@ body{
 
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 95vh;
 }
 
 .main-div{
     position: relative;
-    width: 280px;
-    height: 250px;
-   
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    animation: scale-div 1s linear infinite;
+    
 }
 
 .main-div span {
 
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     position: absolute;
-    transform: rotate(45deg);
-    animation: rotation1 1s linear infinite;
+    animation: rotate-span 1s linear infinite
     
 }
 
 .main-div span:nth-child(1)
 {
-    position: absolute;
-    background-color:red;
-    top: 20%;
-    left: 20%;
-    animation: rotation-1 3s linear infinite ;
+    top:0%;
+    left:0;
+    background-color:#069E64;
+    
 }
 
 
 .main-div span:nth-child(2)
 {
-    position: absolute;
-    top: 3.5%;
-    left: 35%;
-    background-color: blue;
-    animation: rotation-2 3s linear infinite ;
+    top:0%;
+    right:0;
+    background-color:yellow;
+    
 }
 
 .main-div span:nth-child(3)
 {
-    position: absolute;
-    left: 35%;
-    top: 37%;
-    background-color: greenyellow;
-    animation: rotation-3 3s linear infinite ;
+    bottom: 0;
+    left: 0;
+    background-color:#E05351;
+    
 }
 
 .main-div span:nth-child(4)
 {
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    background-color:salmon ;
-    animation: rotation-4 3s linear infinite ;
+    bottom: 0;
+    right: 0;
+    background-color:#51CBE0;
+    
 }
 
 
-@keyframes rotation-1 {
-   0%{
-       left: -5%;
-       transform: rotate(0);
-   }
+@keyframes rotate-span{
+    0%,10% {
+        transform: rotate(0deg);
+    }
 
-  50%{
-
-    transform: rotate(90deg);
-   }
-
-   100%{
-       transform: rotate(45deg);
-   }
+    50%,90%,100% {
+        transform: rotate(90deg);
+    }
 
 }
 
-@keyframes rotation-2 {
-   
-    0%{
-        transform: translate(60px) rotate(0); 
+@keyframes scale-div {
+    
+    0%,10%,90%,100% {
+        width: 150px;
+        height: 150px;
     }
- 
-   50%{
- 
-     transform: rotate(90deg);
+
+    50% {
+        width: 200px;
+        height: 200px;
     }
- 
-    100%{
-        transform: rotate(45deg);
-    }
+
 }
-
-
-@keyframes rotation-3 {
-
-    0%{ 
-        right:4%;
-        transform: translate(-30px,55px) rotate(0);
-
-    }
- 
-   50%{
- 
-     transform: rotate(90deg);
-    }
- 
-    100%{
-        transform: rotate(45deg);
-    }
-}
-
-
-@keyframes rotation-4 {
-
-    0%{
-        transform: translate(10px,-50px) rotate(0); 
-    }
- 
-   50%{
- 
-     transform: rotate(90deg);
-    }
- 
-    100%{
-        transform: rotate(45deg);
-    }
-}
-
-
-

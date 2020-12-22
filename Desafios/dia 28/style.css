@@ -1,31 +1,47 @@
-body 
-{
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Lato', sans-serif;
-	animation: bgchange 20s infinite;
+body{
+
+	display: grid;
+	place-items: center;
+	height: 90vh;
+	background-color:#30DDFA;
+	color: #ffffff;
+	animation: mudar-cor 20s linear infinite ;
 }
 
-h1 
-{
-	font-size: 70px;
+h1{
+
 	text-align: center;
-	text-transform: capitalize;
-	color: white;
+
 }
 
-@keyframes bgchange {
-	0% { background-color: #272727 }
+@keyframes mudar-cor {
 
-	20% { background-color: blue }
+	0%{
 
-	40% { background-color: tomato }
+		background-color:#30DDFA;
+	}
 
-	60% { background-color: lightblue }
+	25%{
 
-	80% { background-color: darkgreen }
+		background-color:#FA8627;
+	
+	}
 
-	100% { background-color: #272727 }
+	50%{
+
+		background-color: #893BFF;
+
+	}
+
+	75%{
+
+		background-color: #FAF328;
+
+	}
+
+	100%{
+
+		background-color: #5AB300;
+	
+	}
 }

@@ -4,7 +4,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(109, 210, 223);
+   /* background-color: rgb(109, 210, 223);*/
+   background-color: blue;
     height: 100vh;
 }
 

@@ -32,7 +32,7 @@ ul li label .icon {
     cursor: pointer;
 }
 
-ul li label input[type="checkbox"]:checked ~ .icon .fas
+ul li label input[type="checkbox"]:checked ~ .icon .fas 
 {
     animation: cores 10s linear infinite;
 }

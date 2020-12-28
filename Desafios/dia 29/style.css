@@ -1,69 +1,94 @@
-body 
-{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    font-family: "helvetica neue", sans-serif;
+body {
+
+    font-family: sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-.nav 
-{
-    border-bottom: 1px solid #EAEAEB;
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
+
+#menu-horizontal {
+
+    height: 50px;
+    border-bottom: 2px solid #EAEAEB;
 }
-.menu 
-{
-    margin: 0 30px 0 0;
-}
-.menu a 
-{
-    clear: right;
+
+#menu-horizontal a{
+
     text-decoration: none;
-    color: gray;
-    margin: 0 10px;
-    line-height: 70px;
+    color: #000000;
+    padding-right: 10px;
+    line-height: 40px;
+    position: relative;
+    left:1050px;
 }
 
-span 
-{
+label, input {
+
+    display: none;
+}
+
+#div-linha{
+    
+    width: 480px;
+    height: 2px;
+    background-color:#ffffff;
+    position: relative;
+    top: 40px;
+}
+
+#menu-hamburguer{
+
+    display: none;
+}
+
+#menu-hamburguer a{
+
+    text-decoration: none;
+    color: #000000;
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid #EAEAEB;
+    
+}
+
+div a span {
+
     color: #54D17A;
+
 }
 
-label 
-{
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
-}
-#toggle 
-{
-    display: none;
-}
+@media only screen and (max-width: 500px){
 
+    #menu-horizontal{
 
-@media only screen and (max-width: 500px) {
-    label {
-        display: block;
-        cursor: pointer;
-    }
-    .menu {
-        text-align: center;
-        width: 100%;
         display: none;
     }
-    .menu a {
-        display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-     
+
+    #div-linha {
+
+        background-color:#EAEAEB;
     }
-    #toggle:checked + .menu {
-        display: block;
+
+    label {
+        display: inline-block;
+        font-size:1.8rem ;
+        color:#000000;
+        position: relative;
+        left: 420px;
+        top: 15px;
+        cursor: pointer;
     }
-    
-    
+
+    input {
+        display: inline-block;
+        opacity: 0;
+    }
+
+    input[type="checkbox"]:checked ~ #menu-hamburguer{
+
+        display: block;
+        position: relative;
+        top: 20px;
+    }
+
 }

@@ -13,7 +13,7 @@ body
     position: absolute;
 }
 
-.explosion
+.explosao
 {
     position: absolute;
     left: -2px;
@@ -23,56 +23,56 @@ body
     transform-origin: 50% 100%;
     overflow: hidden;
 }
-.explosion:nth-child(1)
+.explosi:nth-child(1)
 {
     transform: rotate(0deg)translateY(-15px);
 }
-.explosion:nth-child(2)
+.explosao:nth-child(2)
 {
     transform: rotate(30deg)translateY(-15px);
 }
-.explosion:nth-child(3)
+.explosao:nth-child(3)
 {
     transform: rotate(60deg)translateY(-15px);
 }
-.explosion:nth-child(4)
+.explosao:nth-child(4)
 {
     transform: rotate(90deg)translateY(-15px);
 }
-.explosion:nth-child(5)
+.explosao:nth-child(5)
 {
     transform: rotate(120deg)translateY(-15px);
 }
-.explosion:nth-child(6)
+.explosao:nth-child(6)
 {
     transform: rotate(150deg)translateY(-15px);
 }
-.explosion:nth-child(7)
+.explosao:nth-child(7)
 {
     transform: rotate(180deg)translateY(-15px);
 }
-.explosion:nth-child(8)
+.explosao:nth-child(8)
 {
     transform: rotate(210deg)translateY(-15px);
 }
-.explosion:nth-child(9)
+.explosao:nth-child(9)
 {
     transform: rotate(240deg)translateY(-15px);
 }
-.explosion:nth-child(10)
+.explosao:nth-child(10)
 {
     transform: rotate(270deg)translateY(-15px);
 }
-.explosion:nth-child(11)
+.explosao:nth-child(11)
 {
     transform: rotate(300deg)translateY(-15px);
 }
-.explosion:nth-child(12)
+.explosao:nth-child(12)
 {
     transform: rotate(330deg)translateY(-15px);
 }
 
-.explosion::before
+.explosao::before
 {
     content: "";
     position: absolute;
@@ -84,7 +84,7 @@ body
 
 }
 
-@keyframes explosion
+@keyframes explosao
 {
     0% 
     {
@@ -104,9 +104,9 @@ body
     transform: scale(1);
 }
 
-#firework1 .explosion::before
+#firework1 .explosao::before
 {
-    animation: explosion 2s ease-in-out infinite;
+    animation: explosao 2s ease-in-out infinite;
 }
  
 #firework2
@@ -115,19 +115,18 @@ body
     top: 40%;
     transform: scale(.7);
 }
-#firework2 .explosion::before
+#firework2 .explosao::before
 {
-    animation: explosion 2s .6s ease-in-out infinite;
+    animation: explosao 2s .6s ease-in-out infinite;
 }
  
 #firework3
 {
-    left: 60%;
-    top:60% ;
+    left: 10%;
+    top:10% ;
     transform: scale(.4);
 }
-#firework3 .explosion::before
+#firework3 .explosao::before
 {
-    animation: explosion 2s .4s ease-in-out infinite;
+    animation: explosao 2s .4s ease-in-out infinite;
 }
- 
